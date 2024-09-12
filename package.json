@@ -2,9 +2,9 @@
   "name": "puppeteer-proxy-app",
   "version": "1.0.0",
   "description": "An Express app with Puppeteer and proxy support",
-  "main": "ev3.js",
+  "main": "ev.js",
   "scripts": {
-    "start": "node ev3.js"
+    "start": "node ev.js"
   },
   "dependencies": {
     "express": "^4.18.2",
