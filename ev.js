@@ -16,7 +16,7 @@ app.get('/', async (req, res) => {
 
     (async () => {
         const browser = await puppeteer.connect({
-            browserWSEndpoint: `wss://production-sfo.browserless.io?&token=QsSRSpVrkfGi1V1f8467f6d881182dcdc00bdb68bc&--proxy-server=http://45.67.3.29:6192`,
+            browserWSEndpoint: `wss://production-sfo.browserless.io?&token=Qsmt0W7DBy7fbg6657f984117e050b52f308f29a68&--proxy-server=http://45.67.3.29:6192`,
         });
 
         const page = await browser.newPage();
